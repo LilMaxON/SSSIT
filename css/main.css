@@ -1,0 +1,19 @@
+.border-bottom{
+    --bs-border-color: aqua;
+}
+hr{
+    color: aqua;
+}
+
+@media (min-width: 768px){
+    .carousel-inner{
+        display: flex;
+    }
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+.card{
+    margin: 0 .5em;
+}
