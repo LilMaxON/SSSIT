@@ -46,6 +46,13 @@ header{
     border-radius: 30px;
 }
 
+.card{
+    margin: 0 .5em;
+}
+.rounded-6{
+    border-radius: 100px;
+   }
+   
 /* VK post page */
 #VKPostCarousel{ 
     height: 100em;
