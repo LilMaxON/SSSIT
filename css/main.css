@@ -5,19 +5,34 @@ hr{
     color: aqua;
 }
 
-@media (min-width: 768px){
-    .carousel-inner{
-        display: flex;
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+    }
+    .carousel-inner .card{
+        max-width: 50%;
+    }
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { 
+      transform: translateX(0);
     }
 }
 
-.carousel-inner{
-    padding: 1em;
+.carousel-control-prev:hover{
+    background: linear-gradient(90deg, #0888, #fff0);
+    border-radius: 30px;
+}
+
+.carousel-control-next:hover{
+    background: linear-gradient(-90deg, #0888, #fff0);
+    border-radius: 30px;
 }
 .card{
     margin: 0 .5em;
 }
-
-
-
-
