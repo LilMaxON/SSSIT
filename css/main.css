@@ -42,3 +42,6 @@ header{
 .card{
     margin: 0 .5em;
 }
+.rounded-6{
+    border-radius: 100px;
+}
