@@ -4,6 +4,12 @@
 hr{
     color: aqua;
 }
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
 
 @media (min-width: 768px) {
     .carousel-inner .carousel-item-end.active,
