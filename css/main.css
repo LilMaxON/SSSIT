@@ -28,7 +28,11 @@ hr{
     background: linear-gradient(90deg, #0888, #fff0);
     border-radius: 30px;
 }
+
 .carousel-control-next:hover{
     background: linear-gradient(-90deg, #0888, #fff0);
     border-radius: 30px;
+}
+.card{
+    margin: 0 .5em;
 }
