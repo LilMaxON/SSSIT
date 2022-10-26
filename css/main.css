@@ -15,6 +15,8 @@ header{
 }
 .nav-link{
     font-size: 1rem;
+footer{
+    border-top: 1px solid aqua;
 }
 
 @media (min-width: 768px) {
@@ -52,9 +54,6 @@ header{
     border-radius: 30px;
 }
 
-.card{
-    margin: 0 .5em;
-}
 .rounded-6{
     border-radius: 100px;
    }
@@ -62,4 +61,26 @@ header{
 /* VK post page */
 #VKPostCarousel{ 
     height: 100em;
+}
+
+/* Tasks page */
+.tasks-main{
+    max-width: 1800px;
+    margin: auto;
+}
+@media (min-width:800px) {
+    .tasks-main{
+        display: flex;
+    }
+    .task-reward{
+        max-width: 40%;
+    }
+}
+@media (max-width:799px) {
+    .tasks-main{
+        display: block;
+    }
+}
+.task-list{
+    font-size: 24px;
 }
