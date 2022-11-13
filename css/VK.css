@@ -1,3 +1,7 @@
+/*@import "../node_modules/bootstrap/scss/functions";*/
+/*@import "../node_modules/bootstrap/scss/variables";*/
+@import "../node_modules/bootstrap/scss/mixins";
+
 .border-bottom{
     --bs-border-color: aqua;
 }
@@ -19,6 +23,21 @@ footer{
 .nav-link{
     font-size: 1rem;
 }
+h2{
+    font-size: large;
+}
+.carousel-control-next{
+    width: 7%;
+}
+.carousel-control-prev{
+    width: 7%;
+
+}
+.row {
+    margin-left: +12px;
+    margin-right:+12px ;
+}
+
 
 @media (min-width: 768px) {
     .carousel-item-end.active, .carousel-item-next {
@@ -84,9 +103,4 @@ footer{
 }
 .task-list{
     font-size: 24px;
-}
-
-.row {
-    margin-left: +12px;
-    margin-right:+12px ;
 }
