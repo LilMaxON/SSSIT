@@ -2,27 +2,7 @@
 /*@import "../node_modules/bootstrap/scss/variables";*/
 @import "../node_modules/bootstrap/scss/mixins";
 
-.border-bottom{
-    --bs-border-color: aqua;
-}
-hr{
-    color: aqua;
-}
-header{
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-footer{
-    border-top: 1px solid aqua;
-}
-.text-white{
-    font-size: 1.2rem;
-}
-.nav-link{
-    font-size: 1rem;
-}
+
 h2{
     font-size: large;
 }
@@ -31,76 +11,12 @@ h2{
 }
 .carousel-control-prev{
     width: 7%;
-
 }
 .row {
     margin-left: +12px;
     margin-right:+12px ;
 }
 
-
-@media (min-width: 768px) {
-    .carousel-item-end.active, .carousel-item-next {
-      transform: translateX(50%);
-    }
-    
-    .carousel-item-start.active, .carousel-item-prev {
-      transform: translateX(-50%);
-    }
-    .carousel-inner .card{
-        max-width: 50%;
-    }
-    .carousel-item-end, .carousel-item-start { 
-      transform: translateX(0);
-    }
-    
-    .carousel-item.active + .carousel-item:not(.carousel-item-start):not(.carousel-item-end ~ .carousel-item){
-        display: block;
-        transform: translateX(50%);
-    }
-    /* .carousel-item:first-child:not(.active):not(.carousel-item:last-child.active):not(.carousel-item-start){
-        display: block;
-        transform: translateX(50%);
-    } */
-}
-
-.carousel-control-prev:hover{
-    background: linear-gradient(90deg, #0888, #fff0);
-    border-radius: 30px;
-}
-
-.carousel-control-next:hover{
-    background: linear-gradient(-90deg, #0888, #fff0);
-    border-radius: 30px;
-}
-
-.rounded-6{
-    border-radius: 100px;
-   }
-   
-/* VK post page */
 #VKPostCarousel{ 
     height: 100em;
-}
-
-/* Tasks page */
-.tasks-main{
-    max-width: 1800px;
-    margin: auto;
-}
-@media (min-width:800px) {
-    .tasks-main{
-        display: flex;
-    }
-    .task-reward{
-        max-width: 40%;
-    }
-}
-@media (max-width:799px) {
-    .tasks-main{
-        display: block;
-    }
-}
-.task-list{
-    font-size: 24px;
 }

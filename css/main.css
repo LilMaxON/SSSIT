@@ -57,36 +57,4 @@ footer{
 
 .rounded-6{
     border-radius: 100px;
-   }
-   
-/* VK post page */
-#VKPostCarousel{ 
-    height: 100em;
-}
-
-/* Tasks page */
-.tasks-main{
-    max-width: 1800px;
-    margin: auto;
-}
-@media (min-width:800px) {
-    .tasks-main{
-        display: flex;
-    }
-    .task-reward{
-        max-width: 40%;
-    }
-}
-@media (max-width:799px) {
-    .tasks-main{
-        display: block;
-    }
-}
-.task-list{
-    font-size: 24px;
-}
-
-.row {
-    margin-left: +12px;
-    margin-right:+12px ;
 }
