@@ -42,16 +42,25 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="px-3 py-2 border-bottom mb-3" id="loginBar">
-        <div class="container d-flex flex-wrap justify-content-center">
-            <div class="text-end">
-            <a href="login.html" type="button" class="btn btn-light text-dark me-2">Login</a>
-            <a href="signup.html" type="button" class="btn btn-primary">Sign-up</a>
-            </div>
-        </div>
-        </div>    
+        </div>   
     </header>
+    <main>
+        <div class="col-4 text-bg-dark my-5 rounded-5 p-3 mx-auto">
+            <div class="text-white text-align-center"><h1 class="display-6 fw-normal">Log in</h1></div>
+            <hr>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="">@</span>
+                <input type="email" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="">*</span>
+                <input type="password" class="form-control" placeholder="password" aria-label="password" aria-describedby="">
+            </div>
+            <button type="button" class="btn btn-primary">Log in</button>
+            <hr>
+            <p>Еще нет аккаунта? <a href="signup.html">Зарегистрируйтесь!</a></p>
+        </div>
+    </main>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 </body>
